@@ -1,0 +1,37 @@
+#contactForm {
+	margin-top: 30px;
+	width: 500px;
+}
+#contactForm input, #contactForm textarea {
+	border: 1px solid #ccc;
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 14px;
+	margin: 0px 0px 10px 0px;
+	padding: 2px;
+	width: 379px;
+}
+#contactForm textarea {
+	height: 100px;
+}
+#contactForm textarea:focus, #contactForm input:focus {
+	border: 1px solid #888;
+}
+#contactForm label {
+	float: left;
+	font-size: 14px;
+	margin-right: 15px;
+	text-align: right;
+	width: 100px;
+}
+#contactForm input.submit {
+	cursor: pointer;
+	float: right;
+	width: 130px;
+}
+#contactForm h2, #contactForm h3 {
+	margin-left: 115px;
+}
+#contactForm .error {
+	color: #ff0000;
+	margin-left: 115px;
+}
